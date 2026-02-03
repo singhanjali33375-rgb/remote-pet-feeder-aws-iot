@@ -1,0 +1,12 @@
+{
+  "TableName": "PetFeedingLog",
+  "KeySchema": [
+    { "AttributeName": "PetId", "KeyType": "HASH" },
+    { "AttributeName": "Timestamp", "KeyType": "RANGE" }
+  ],
+  "AttributeDefinitions": [
+    { "AttributeName": "PetId", "AttributeType": "S" },
+    { "AttributeName": "Timestamp", "AttributeType": "S" }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}
