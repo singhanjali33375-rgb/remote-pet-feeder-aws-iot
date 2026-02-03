@@ -82,3 +82,8 @@ Feeding history tracking
 Mobile app integration
 Automated feeding schedules
 Camera integration
+Built a Remote Pet Feeder system using AWS IoT Button, AWS Lambda, and
+Amazon DynamoDB to enable remote food dispensing and track feeding history
+in a serverless cloud environment.
+Interview One-Line Explanation
+“An AWS IoT Button triggers a Lambda function that dispenses food and logs feeding details in DynamoDB.”
